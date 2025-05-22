@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Python Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Getting_Started">Getting Started</a>
+        <a class="nav-link" href="#Variables_and_Data_Types">Variables and Data Types</a>
+        <a class="nav-link" href="#Control_Flow">Control Flow</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Python is a high-level, interpreted programming language known for its simplicity and readability.</p>
+            <p>Created by Guido van Rossum and first released in 1991, Python has become one of the most popular programming languages worldwide.</p>
+            <code>print("Hello, World!")</code>
+            <p>Key features of Python include:</p>
+            <ul>
+                <li>Easy-to-learn syntax</li>
+                <li>Cross-platform compatibility</li>
+                <li>Extensive standard library</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Getting_Started">
+            <header>Getting Started</header>
+            <p>To start programming in Python, you'll need to install the Python interpreter on your computer.</p>
+            <p>Here are the basic steps:</p>
+            <ol>
+                <li>Download Python from the official website</li>
+                <li>Run the installer</li>
+                <li>Verify the installation</li>
+            </ol>
+            <code>python --version</code>
+            <p>This command will show you the installed Python version.</p>
+        </section>
+
+        <section class="main-section" id="Variables_and_Data_Types">
+            <header>Variables and Data Types</header>
+            <p>Python has several built-in data types:</p>
+            <ul>
+                <li>Numbers (int, float, complex)</li>
+                <li>Strings</li>
+                <li>Boolean</li>
+                <li>Lists</li>
+                <li>Tuples</li>
+                <li>Dictionaries</li>
+            </ul>
+            <p>Variables are created when you assign a value to them:</p>
+            <code>x = 5
+y = "Hello"</code>
+            <p>Python is dynamically typed, so you don't need to declare variable types.</p>
+        </section>
+
+        <section class="main-section" id="Control_Flow">
+            <header>Control Flow</header>
+            <p>Python supports the usual control flow statements found in other languages.</p>
+            <p>Conditional statements:</p>
+            <code>if x > 0:
+    print("Positive")
+elif x == 0:
+    print("Zero")
+else:
+    print("Negative")</code>
+            <p>Loop statements:</p>
+            <code>for i in range(5):
+    print(i)</code>
+            <p>While loops:</p>
+            <code>while x < 10:
+    x += 1</code>
+        </section>
+
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>Functions are defined using the def keyword:</p>
+            <code>def greet(name):
+    print(f"Hello, {name}!")</code>
+            <p>Functions can return values using the return statement:</p>
+            <code>def square(x):
+    return x * x</code>
+            <p>Python functions can have default arguments:</p>
+            <code>def power(base, exponent=2):
+    return base ** exponent</code>
+            <p>Functions are first-class objects in Python, meaning they can be passed as arguments to other functions.</p>
+        </section>
+    </main>
+</body>
+</html>
